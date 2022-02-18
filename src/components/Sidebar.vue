@@ -1,27 +1,18 @@
 <template>
     <h2 class="title">Collections</h2>
-    <el-menu>
+    <el-menu :default-active="$route.path" :router="true">
         <el-sub-menu index="1">
             <template #title>
                 <span>Navigator One</span>
             </template>
-            <el-menu-item index="1-1" @click="push('/one')">Go to one</el-menu-item>
-            <el-menu-item index="1-2" @click="push('/two')">Go to two</el-menu-item>
+            <el-menu-item index="/machiavelli">Machiavelli</el-menu-item>
+            <el-menu-item index="/two">Go to two</el-menu-item>
         </el-sub-menu>
-        <el-menu-item index="2" @click="push('/three')">Go to three</el-menu-item>
-        <el-menu-item index="3" @click="push('/four')">Go to four</el-menu-item>
+        <el-menu-item index="2">Go to three</el-menu-item>
+        <el-menu-item index="3">Go to four</el-menu-item>
     </el-menu>
 </template>
 
-<script lang="ts">
-export default {
-    methods: {
-        push(path: string) {
-            return this.$router.push(path);
-        }
-    }
-}
-</script>
 
 <script lang="ts" setup>
 

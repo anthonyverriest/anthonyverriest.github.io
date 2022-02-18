@@ -1,10 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 
-const testPage1 = () => import('../components/pages/TestPage.vue')
+const frontPage = () => import('../components/FrontPage.vue')
+const machiavelliPage = () => import('../components/pages/Machiavelli.vue')
 const testPage2 = () => import('../components/pages/TestPage2.vue')
 
 const routes = [
-    { path: '/one', component: testPage1 },
+    { path: '/', component: frontPage },
+    { path: '/machiavelli', component: machiavelliPage },
     { path: '/two', component: testPage2 },
 ];
 
