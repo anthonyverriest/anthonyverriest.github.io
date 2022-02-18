@@ -6,9 +6,13 @@
             </el-scrollbar>
         </el-aside>
 
-        <el-main>
-            <router-view></router-view>
-        </el-main>
+        <el-container>
+            <el-main class="view">
+                <router-view></router-view>
+            </el-main>
+
+            <el-aside></el-aside>
+        </el-container>
     </el-container>
 </template>
     
@@ -19,30 +23,16 @@ import Sidebar from "./Sidebar.vue";
 
 
 <style scoped>
-.layout-container-demo .el-header {
-    /*position: relative;*/
-    background-color: #b3c0d1;
-    color: var(--el-text-color-primary);
-}
 .layout-container-demo .el-aside {
-    /*width: 240px;*/
     color: var(--el-text-color-primary);
     background: #fff !important;
-
     box-sizing: border-box;
 }
-.layout-container-demo .el-menu {
-    border-right: none;
-}
-.layout-container-demo .el-main {
-    padding: 0;
-}
-.layout-container-demo .toolbar {
-    /*position: absolute;
-    display: inline-flex;
-    align-items: center;
 
-    right: 20px;
-    transform: translateY(-50%);*/
+.view {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 </style>

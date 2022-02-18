@@ -1,1 +1,0 @@
-import{_ as t}from"./index.6f951b35.js";import{c as s,o,e}from"./vendor.f5d44cb6.js";const a={name:"TestPage2"},n=e("h1",null,"Test",-1),c=e("p",null,"test",-1),r=[n,c];function _(l,p,d,i,f,m){return o(),s("div",null,r)}var $=t(a,[["render",_]]);export{$ as default};
