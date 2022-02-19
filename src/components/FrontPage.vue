@@ -1,5 +1,5 @@
 <template>
-    <el-container style="height:100vh; width: 100%;" class="center">
+    <el-container class="center">
         <div class="quote">
             <q>If you only do what you can do, you will never be more than you are now</q>
         </div>
@@ -37,12 +37,16 @@
 <script lang="ts" setup>
 const activities = [
     {
+        content: 'Added Copywriting',
+        timestamp: '2022-02-19',
+    },
+    {
         content: 'Added Machiavelli',
-        timestamp: '2022-02-22',
+        timestamp: '2022-02-18',
     },
     {
         content: 'Creation of website',
-        timestamp: '2022-02-22',
+        timestamp: '2022-02-18',
     }
 
 ]

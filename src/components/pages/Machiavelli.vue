@@ -2,52 +2,52 @@
     <div class="page">
         <div class="page-title">Machiavelli</div>
         <h1>Become the Prince</h1>
-        <h2>Be Present</h2>
+        <h3>Be Present</h3>
         <p>
             A Prince should all the time be available and engaged in his new environment. He has to deal with issues immediately (today rather than tomorrow).
             Only thus can he gain the trust of others. The Prince should not crush small or minors powers and join larger ones. Joining larger groups will only give them more strength.
             The Prince, should instead, aim to divide these big forces (as a minor power at the beginning, joining other minor groups will be easier to gain their trust and fight against large groups).
         </p>
-        <h2>Do not be neutral</h2>
+        <h3>Do not be neutral</h3>
         <p>
             Staying neutral will only bring the Prince hatred from all the other parties.
             A Prince should be decisive. It is not necessarily the best solution to side with a more powerful ally for if they win you will be at their mercy.
             Some exceptions can occur if staying neutral is a strategic option.
         </p>
-        <h2>Be both the man and the beast</h2>
+        <h3>Be both the man and the beast</h3>
         <p>
             A Prince should love peace but also be prepared to wage war.
             A Prince should fight by law as a man and fight by force as a beast,
             like the mighty lion and the cunning fox. Be aware that too much brute force will be seen as bullying.
         </p>
-        <h2>Destroy, do not wound</h2>
+        <h3>Destroy, do not wound</h3>
         <p>
             One can become a Prince by skill, luck, election or wickedness.
             Force is sometimes needed to be secure, and once secure, stop to let the situation heal.
             A Prince should commit all his acts of cruelties at once and then immediately end. All the inflicted injuries should be known at the beginning.
-            If you only wound but do not destroy your enemy, they will come back at you later on. Nowadays, with technology, cruelties can be continuously inflicted in some cases.
+            If you only wound but do not destroy your enemy, they will come back at you. Nowadays, with technology, cruelties can be continuously inflicted in some cases.
             Benefits, unlike cruelties, must be conferred gradually.
         </p>
-        <h2>Acquire when you can</h2>
+        <h3>Acquire when you can</h3>
         <p>
             A Prince should not conquer if he can't keep it for success is socially approved whereas failure is disapproved.
             A Prince should use his own power (own army) and not be relying on foreign forces.
         </p>
-        <h2>Never bring others to powers</h2>
+        <h3>Never bring others to powers</h3>
         <p>
             Set up colonies and weaken the most powerful ones. Never allow a foreign party to gain authority.
             A Prince can establish alliances but not make the allies too strong as they can turn on you.
             Increasing your power means weakening others.
         </p>
-        <h2>Be feared</h2>
+        <h3>Be feared</h3>
         <p>
             Over-compassion enables disorder. Good leaders are admired and strong leaders are respected.
             Strength and discipline is required for control. Bravery and excellence are not enough to secure loyalty.
             If the Prince can't be both loved and feared he must be feared but not hated.
             To avoid being hated, the Prince must protect his people, avoid interfering in their lives, only be cruel when absolutely necessary and not taking his people's property.
-            Humans are selfish thus the Prince shouldn't rely entirely on love.
+            Humans are selfish by nature thus the Prince shouldn't rely entirely on love.
         </p>
-        <h2>Strength of rulers</h2>
+        <h3>Strength of rulers</h3>
         <ul>
             <li>The strongest Prince instills both fear and love</li>
             <li>A stronger commander inspires fear in his people</li>

@@ -28,10 +28,8 @@ import Sidebar from "./Sidebar.vue";
 }
 
 .view {
-    /*padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 20vh;
-    padding-right: 20vh;*/
+    display: flex;
+    justify-content: center;
     padding: 0;
 }
 </style>

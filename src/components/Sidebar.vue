@@ -1,21 +1,37 @@
 <template>
     <h2 class="title">Collections</h2>
     <el-menu :default-active="$route.path" :router="true">
-        <el-sub-menu index="1">
+        <el-sub-menu
+            v-for="(collection, index) in collections"
+            :index="index.toString()"
+            :key="index"
+        >
             <template #title>
-                <span>Navigator One</span>
+                <span>{{ collection.title }}</span>
             </template>
-            <el-menu-item index="/machiavelli">Machiavelli</el-menu-item>
-            <el-menu-item index="/two">Go to two</el-menu-item>
+            <el-menu-item
+                v-for="(page, index) in collection.pages"
+                :index="page"
+            >{{ page.substring(1) }}</el-menu-item>
         </el-sub-menu>
-        <el-menu-item index="2">Go to three</el-menu-item>
-        <el-menu-item index="3">Go to four</el-menu-item>
     </el-menu>
 </template>
 
 
 <script lang="ts" setup>
 
+import { Pages } from '../router/router';
+
+const collections = [
+    {
+        title: 'Philosophy',
+        pages: [Pages.Machiavelli]
+    },
+    {
+        title: 'Writing',
+        pages: [Pages.Copywriting]
+    },
+]
 </script>
 
 <style scoped>

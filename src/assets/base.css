@@ -94,6 +94,7 @@ h3 {
   margin-top: 16px;
   font-size: 18px;
   font-weight: 500;
+  text-transform: initial;
 }
 
 p {
@@ -108,6 +109,87 @@ p {
 .page {
   padding-top: 48px;
   padding-bottom: 48px;
-  padding-left: 20vh;
-  padding-right: 20vh;
+  padding-left: 48px;
+  padding-right: 48px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.link {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.tip {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.success {
+  border-left: 5px solid var(--el-color-success);
+}
+
+.danger {
+  border-left: 5px solid var(--el-color-danger);
+}
+
+.warning {
+  border-left: 5px solid var(--el-color-warning);
+}
+
+.channel {
+  text-decoration: none;
+  align-items: center;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  margin: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 4px rgba(0, 0, 0, 0.04);
+}
+.channel-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 14px;
+}
+
+.channel:link {
+  color: black;
+}
+
+/* visited link */
+.channel:visited {
+  color: black;
+}
+
+/* mouse over link */
+.channel:hover {
+  color: black;
+  border: 1px solid var(--el-color-primary);
+}
+
+/* selected link */
+.channel:active {
+  color: black;
+  border: 1px solid var(--el-color-primary);
+}
+
+.reference{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border-top: 1.5px solid #eee;
+  padding-top: 10px;
+  /*font-style: italic;*/
 }
